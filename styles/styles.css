@@ -208,7 +208,7 @@ header nav a:hover {
 
 /* Hero Section */
 .hero {
-    padding: 8rem 0;
+    padding-top: 8rem;
     background: var(--secondary-color);
 }
 
@@ -243,8 +243,21 @@ header nav a:hover {
     display: flex;
     justify-content: center;
     gap: 10px;
+
+    margin-bottom: 6rem;
 }
 
+.hero .hero-img {
+    width: 75%;
+    margin: 0 auto;
+    border: 10px solid white;
+    border-radius: 15px;
+}
+
+.hero .hero-img img {
+    width: 100%;
+    border-radius: 5px;
+}
 
 
 
